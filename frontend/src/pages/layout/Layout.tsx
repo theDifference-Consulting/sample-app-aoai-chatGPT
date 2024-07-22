@@ -42,7 +42,7 @@ const Layout = () => {
 
   useEffect(() => {
     if (!appStateContext?.state.isLoading) {
-      setLogo(ui?.logo || Contoso)
+      setLogo(ui?.logo || Measurement Hackathon Pre-read Database 2025)
     }
   }, [appStateContext?.state.isLoading])
 
